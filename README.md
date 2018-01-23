@@ -74,4 +74,5 @@ In the above example, the output should be:
 If using Model-Shift, please cite the following papers:
 
 http://adsabs.harvard.edu/abs/2017ksci.rept...15C
+
 http://adsabs.harvard.edu/abs/2017arXiv171006758T
