@@ -76,3 +76,9 @@ If using Model-Shift, please cite the following papers:
 http://adsabs.harvard.edu/abs/2017ksci.rept...15C
 
 http://adsabs.harvard.edu/abs/2017arXiv171006758T
+
+
+## Future Updates
+
+Ideally this code would be re-written in Python (instead of as-is, poorly written in C++11), and I hope to do so one day. -Jeff
+
