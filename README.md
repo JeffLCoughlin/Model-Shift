@@ -1,5 +1,5 @@
 # Model-Shift
-The Kepler DR25 Model-Shift runs a suite of planet vetting tests to detect false positives due to systematic noise, seconday eclipses, odd/even eclipse differences, asymmetric transit shape, transit depth variations, and non-planetary shapes. It uses the photometric light curve data along with a best-fit transit model to esentially find the best-fit depth of the transit model at every phase and produce a high-SNR convolved light curve. Using the measured depths from this light curve, the suite of tests are performed and results outputted to the command line, with a plot displaying the results, light curves, and events optionally produced.
+The Model-Shift code runs a suite of planet vetting tests to detect false positives due to systematic noise, seconday eclipses, odd/even eclipse differences, asymmetric transit shape, transit depth variations, and non-planetary shapes. It uses the photometric light curve data along with a best-fit transit model to esentially find the best-fit depth of the transit model at every phase and produce a high-SNR convolved light curve. Using the measured depths from this light curve, the suite of tests are performed and results outputted to the command line, with a plot displaying the results, light curves, and events optionally produced.
 
 A detailed description can be found starting on page 23 of the DR25 TCERT Vetting Reports description document (http://adsabs.harvard.edu/abs/2017ksci.rept...15C) as well as section A.3.4 of The DR25 Catalog paper (Thompson et al. 2017; http://adsabs.harvard.edu/abs/2017arXiv171006758T).
 
@@ -7,7 +7,7 @@ A detailed description can be found starting on page 23 of the DR25 TCERT Vettin
 
 ## Compiling and Running the Code
 
-The DR25 Robovetter code is provided, along with a sample input data file and a sample output plot.
+The Model-Shift code is provided, along with a sample input data file and a sample output plot.
 
 ### Prerequisites
 
