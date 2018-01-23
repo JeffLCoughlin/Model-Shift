@@ -62,6 +62,12 @@ to run Model-Shift, print results to the standard output / command line, and pro
 - The measured depth of the secondary event.
 - The error in the measured depth of the secondary event.
 
+In the above example, the output should be:
+
+```
+006307521-01 74.8408874699 16.6389529120 4.0169529566 4.4924498316 0.2712002206 1.0595297919 0.0702039832  0.5052345164 4.7983653500 2.1444960914 1.8802464536 0.0001730113 0.5031546113 -0.1912675518 0.2062202755 0.0001663586 0.0000099981
+```
+
 
 ## Citing Model-Shift
 
