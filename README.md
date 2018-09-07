@@ -13,7 +13,7 @@ The Model-Shift code is provided, along with a sample input data file and a samp
 
 The code is written in C++11 and only requires the standard C++ library (specifically, the required libraries are iomainip, iostream, fstream, algorithim, and sstream). It has been tested to work with the g++ compiler, but should work with any standard C++ compiler with the -std=c++11 option.
 
-There is an option to produce a PDF plot that graphically shows the results of Model-Shift. This option requires that Gnuplot (http://www.gnuplot.info/) be installed on your system, and includes the 'pdfcairo' terminal option.
+There is an option to produce a PDF plot that graphically shows the results of Model-Shift. This option requires that Gnuplot (http://www.gnuplot.info/) be installed on your system, and includes the 'pdfcairo' terminal option. Version 5.0+ of Gnuplot is reccommened. If using version 4 or below, comment out line 928 (referencing "colorsequence") and delete all instances of "dt 2" from line 1057.
 
 
 ### Compiling
