@@ -75,7 +75,7 @@ If using Model-Shift, please cite the following papers:
 
 http://adsabs.harvard.edu/abs/2017ksci.rept...15C
 
-http://adsabs.harvard.edu/abs/2017arXiv171006758T
+http://adsabs.harvard.edu/abs/2018ApJS..235...38T
 
 
 ## Future Updates
