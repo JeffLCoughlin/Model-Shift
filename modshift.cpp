@@ -1491,7 +1491,7 @@ void BIN_NOERR(string bininfile, double binsize, string binoutfile)
 
   dataout.open(binoutfile.c_str());
   for(i=0;i<Nbin;i++)
-    dataout << setprecision(10) << bindat[i].phase << " " << bindat[i].flux << " " << bindat[2].resid << endl;
+    dataout << setprecision(10) << bindat[i].phase << " " << bindat[i].flux << " " << bindat[i].resid << endl;
   dataout.close();
 
   }
